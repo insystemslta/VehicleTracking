@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@color/login_background">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <TextView
+            android:id="@+id/application_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            style="@style/login_textView"
+            android:text="@string/login_app_name" />
+
+        <EditText
+            android:id="@+id/login_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bottom_border"
+            android:ems="20"
+            android:layout_marginTop="60dp"
+            style="@style/login_edit_text"
+            android:inputType="phone"
+            android:hint="@string/login_contact"
+            android:drawableLeft="@mipmap/ic_action_person">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bottom_border"
+            android:ems="10"
+            android:hint="@string/login_password"
+            android:layout_marginTop="10dp"
+            style="@style/login_edit_text"
+            android:inputType="textPassword"
+            android:drawableLeft="@mipmap/ic_action_pass"
+            android:imeOptions="actionDone"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/login_button_shape"
+            style="@style/login_button"
+            android:textColor="@drawable/button_text_color"
+            android:text="@string/login_enter" />
+
+        <TextView
+            android:id="@+id/user_registation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            style="@style/login_textView"
+            android:text="@string/login_register" />
+
+        <TextView
+            android:id="@+id/user_forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:visibility="visible"
+            style="@style/login_textView"
+            android:text="@string/user_forgot_password" />
+
+    </LinearLayout>
+</ScrollView>

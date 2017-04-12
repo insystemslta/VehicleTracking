@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorForeground">@color/common_google_signin_btn_text_dark_disabled
+        </item>
+    </style>
+
+    <!-- LOGIN STYLE -->
+    <style name="login_textView" parent="AppTheme">
+        <item name="android:textColor">#023368</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="login_button" parent="AppTheme">
+        <item name="android:textColor">#023368</item>
+    </style>
+
+    <style name="login_edit_text" parent="AppTheme">
+        <item name="android:textColor">#023368</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <!-- VEHICLE DETAILS -->
+    <style name="vehicle_details_make_model" parent="AppTheme">
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="vehicle_details_label" parent="AppTheme">
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="vehicle_details_main_item" parent="AppTheme">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="vehicle_details_secondary_item" parent="AppTheme">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#c9c9c9</item>
+    </style>
+
+    <style name="vehicle_list_make" parent="AppTheme">
+        <item name="android:textSize">23dp</item>
+        <item name="android:textColor">#023368</item>
+    </style>
+
+    <!-- DRAWER ITEM STYLE -->
+    <style name="drawer_item_textView" parent="AppTheme">
+        <item name="android:textColor">#636568</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="InSystemsTheme" parent="InSystemsTheme.Base" ></style>
+
+    <style name="InSystemsTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <item name="android:textColorPrimary">@color/abc_input_method_navigation_guard</item>
+        <item name="android:colorForeground">@color/bright_foreground_holo_light</item>
+    </style>
+
+
+</resources>

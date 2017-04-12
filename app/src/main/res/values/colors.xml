@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#076b9e</color>
+    <color name="colorPrimaryDark">#2f5487</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+
+    <color name="login_background">#deeff8</color>
+    <color name="vehicle_details_background">#ffffff</color>
+    <color name="vehicle_details_make_text">#deeff8</color>
+    <color name="dialog_title">#023368</color>
+    <color name="ins_blue_navigation">#5299db</color>
+    <color name="holo_light_primary_dark">#3a78a4</color>
+    <color name="holo_light_primary">#59a7e5</color>
+    <color name="bright_foreground_holo_light">#f6fcfe</color>
+    <color name="black">#3ba6f3</color>
+
+</resources>

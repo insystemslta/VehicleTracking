@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/login_background"
+    android:orientation="vertical"
+    tools:context=".activities.FirstSyncActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/login_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/first_sync_label"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@color/login_background">
+
+            <EditText
+                android:id="@+id/first_sync_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/first_sync_contact"
+                android:background="@drawable/edit_text_bottom_border"
+                android:ems="20"
+                android:layout_marginTop="20dp"
+                style="@style/login_edit_text"
+                android:inputType="phone" >
+
+                <requestFocus />
+            </EditText>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/first_sync_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/first_sync_submit"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/login_button_shape"
+            android:textColor="@drawable/button_text_color"
+            style="@style/login_button"/>
+
+        <Button
+            android:id="@+id/first_sync_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/first_sync_cancel"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/login_button_shape"
+            android:textColor="@drawable/button_text_color"
+            style="@style/login_button"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
